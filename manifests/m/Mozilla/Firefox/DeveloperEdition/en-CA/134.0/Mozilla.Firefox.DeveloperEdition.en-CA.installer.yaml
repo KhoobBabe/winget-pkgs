@@ -1,5 +1,5 @@
 # Created with YamlCreate.ps1 Dumplings Mod
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.6.0.schema.json
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.9.0.schema.json
 
 PackageIdentifier: Mozilla.Firefox.DeveloperEdition.en-CA
 PackageVersion: "134.0"
@@ -24,19 +24,19 @@ FileExtensions:
 - webp
 - xht
 - xhtml
-ReleaseDate: 2024-12-02
+ReleaseDate: 2024-12-13
 Installers:
 - Architecture: x86
-  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/134.0b4/win32/en-CA/Firefox%20Setup%20134.0b4.exe
-  InstallerSha256: 713E887FCF937FA58005BFEEB68338CB5FE958AA9E1376F9E0989D58D5CE8526
+  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/134.0b10/win32/en-CA/Firefox%20Setup%20134.0b10.exe
+  InstallerSha256: 465FF5A1AE1A175E524E99D4DFE71FACB264D6539E5B5CE15AE621A6C6EDADE6
   ProductCode: Firefox Developer Edition 134.0 (x86 en-CA)
 - Architecture: x64
-  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/134.0b4/win64/en-CA/Firefox%20Setup%20134.0b4.exe
-  InstallerSha256: 15E82CD016C9B1DF9106EA4226C5C12381DD62E3B60EF98426FD2E3066D5BBAA
+  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/134.0b10/win64/en-CA/Firefox%20Setup%20134.0b10.exe
+  InstallerSha256: B4657981200300F8E8E5ECCB48C4079F72C7F68F8309B1064394774BA2B66502
   ProductCode: Firefox Developer Edition 134.0 (x64 en-CA)
 - Architecture: arm64
-  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/134.0b4/win64-aarch64/en-CA/Firefox%20Setup%20134.0b4.exe
-  InstallerSha256: B9B4944857444994504E97D2A846DDCEE79915DC814B5C08300FB3AA08E6C952
+  InstallerUrl: https://download-installer.cdn.mozilla.net/pub/devedition/releases/134.0b10/win64-aarch64/en-CA/Firefox%20Setup%20134.0b10.exe
+  InstallerSha256: 7B6D548770C5544F681C36A38407E0564D27C37AC63BD96A90116A861B3BB0C9
   ProductCode: Firefox Developer Edition 134.0 (arm64 en-CA)
 ManifestType: installer
-ManifestVersion: 1.6.0
+ManifestVersion: 1.9.0
